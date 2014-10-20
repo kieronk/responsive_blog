@@ -49,7 +49,9 @@
 }
 
 .three-col {
-  width: 23.87%;
+  width: 23%;
+  margin: 0% 1%;
+  height: 5%;
 }
 
 .four-col {
@@ -65,11 +67,12 @@
 }
 
 .seven-col {
-  width: 57.70%;
+  width: 60%;
+  margin: 0% 3.5%;
 }
 
 .eight-col {
-  width: 66.16%;
+  width: 66%;
 }
 
 .nine-col {
@@ -88,7 +91,8 @@
   width: 100%;
 }
 
-/* Coloring Code */
+/* Coloring Code 
+
 .grid {
     background-color: #999;
 }
@@ -97,6 +101,7 @@
     background-color: #BBB;
 }
 
+*/
 [class*="-col"] {
     background-color: #EEE;
 }
@@ -207,4 +212,26 @@
 .footer {
   width: 100%;
   float: none;
+}
+
+.menu {
+  overflow: scroll;
+}
+
+.moon {
+  width: 40%;
+  height: 40%;
+  margin: 0.5em;
+  border-width: 0.5em;
+  border-color: white;
+  min-width: 160px;
+  min-height: 160px;
+  max-height: 220px;
+  max-width: 220px;
+  float: right;
+}
+
+#heading {
+  background-color: #fff200;
+  margin-top: 0px;
 }
