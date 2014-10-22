@@ -1,0 +1,16 @@
+#heading p {
+    margin: 0;
+    padding: 16px 0;
+}
+.arrow, .card {
+    display:  inline-block;
+}
+.arrow {
+    width:  20%;
+    text-decoration: none;
+    padding: 0 16px;
+}
+.card {
+    width: 59%;
+    text-align: center;
+}
