@@ -52,6 +52,7 @@
   width: 23%;
   margin: 0% 1%;
   height: 5%;
+  padding: 0;
 }
 
 .four-col {
@@ -201,6 +202,21 @@
   margin: 0.5em;
 }
 
+
+.share_options_footer {
+  display: inline;
+  float: right;
+  overflow: none;
+  margin: 20px
+}
+
+.share_options_footer>li {
+  width: 100%;
+  display: inline;
+  text-decoration: none;
+  margin: 0.5em;
+}
+
 .grid {
   margin-top: 5em;
 }
@@ -222,8 +238,7 @@
   width: 40%;
   height: 40%;
   margin: 0.5em;
-  border-width: 0.5em;
-  border-color: white;
+  border: 3px line black;
   min-width: 160px;
   min-height: 160px;
   max-height: 220px;
@@ -231,7 +246,104 @@
   float: right;
 }
 
+.explainer {
+  height: 220px;
+  width: 270px;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  color: #5e605f;
+  margin: 0 auto;
+  width: 50em;
+  text-transform: uppercase;
+}
+
+#left_arrow {
+  float: left;
+}
+
+#right_arrow {
+  float: right;
+}
+
+
+
+/* Styling */ 
+
 #heading {
   background-color: #fff200;
   margin-top: 0px;
+}
+
+.explainer {
+  background-color: #fff200;
+}
+
+.menu {
+  background-color: #4c4e4d;
+  color: grey;
+  padding: 2% 5%;
+  line-height: 2em;
+}
+
+li:active {
+  color: yellow;
+}
+
+li:hover {
+  color: rgba(95,118,133,0.8);
+}
+
+.nav {
+background-color: rgba(95,118,133,0.8);
+}
+
+body {
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.share_options {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.share_options_footer {
+  color: #5e605f;
+  margin: 0 auto;
+  width: 50em;
+}
+
+.content {
+  color: #5e605f;
+  background-color: white;
+  padding: 2% 10%;
+}
+
+.explainer {
+  padding: 5% 8%;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+.title {
+  text-transform: uppercase;
+  line-height: 0;
+  font-size: 12px;
+}
+
+time {
+  font-size: 12px;
 }
